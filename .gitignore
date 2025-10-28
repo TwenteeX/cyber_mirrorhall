@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / cache
+dist/
+build/
+*.log
+
+# Videos / big binaries (如果不用 LFS，就先忽略)
+assets/**/*.mp4
+assets/**/*.mov
+assets/**/*.avi
+
+# VLC 缓存（以防万一）
+vlc-*.log
